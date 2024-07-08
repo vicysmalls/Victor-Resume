@@ -1,0 +1,86 @@
+.gradient-background {
+    background: linear-gradient(300deg, #4C3BCF, #4B70F5, #3DC2EC);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.row div.col-12{
+    text-align: center;
+}
+
+#hanging-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.icon-square{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.75rem;
+}
+
+.footer{
+    background-color: antiquewhite;
+    margin-bottom: -3.2vh;
+}
+
+div.col-12 img{
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header{
+    margin-bottom: -9vh;
+}
+
+.btn.Hardware{
+    color: white;
+    border-color: white !important;
+    background-color: transparent !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.hero{
+    margin-bottom: 10vh;
+    padding-bottom: 1vh;
+}
+
+a.nav-link.active{
+  color: white !important;
+}
+
+.skills{
+  margin-bottom: -7vw;
+}
+
+.btn.btn-primary{
+  background-color: #3DC2EC;
+  border-color: #3DC2EC;
+}
+
+ul.nav{
+  border-color: white !important;
+}
+
+a:hover {
+  text-decoration: underline;
+}

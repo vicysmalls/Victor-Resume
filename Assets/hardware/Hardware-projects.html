@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hardware-Projects</title>
+  <link href="./style.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></head>
+<body>
+<!-- Header -->
+<section class="header gradient-background">
+  <nav class="navbar navbar-expand-sm bg-body-tertiary gradient-background">
+      <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" href="../About/About-me.html">About</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" href="../coding/Coding-projects.html">Coding Projects</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" href="../hardware/Hardware-projects.html">Hardware Projects</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" href="https://www.linkedin.com/in/vazquez-victor/">Linkedin Profile</a>
+              </li>
+          </ul>
+          </div>
+      </div>
+      </nav>
+</section>
+    
+<!-- Carousel -->
+<section class="mt-5">
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../images/Junior_Design_Bot.jpg" class="d-block w-100" alt="Junior_Design_Bot" height="400">
+            <div class="carousel-caption d-none d-sm-block">
+              <h5>Junior Design Autonomous Vehicle</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../images/ME-30_Bot.png" class="d-block w-100" alt="ME-30_Bot" height="400">
+            <div class="carousel-caption d-none d-sm-block">
+              <h5>Raspberry Pi Robot Car</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+
+<!-- Project Descriptions -->
+ <section>
+  <div class="container">
+    <div class="row">
+        <div class="col-12 mt-5 mb-5 project-title"><h3 class="mb-3">Junior Design Autonomous Vehicle Final Project, Tufts University</h3><p>Jan 2024 - May 2024</p>
+          <ul>
+            <li> Coded a robot car with Arduino C++ to sense obstacles in front of it using an IR light collision 
+                system on an Arduino UNO WiFi Rev2</li>
+            <li> Programmed a robot car to follow a predetermined route across a red, blue, and yellow colored 
+                road using state machines</li>
+            <li> Controlled the motors of a robot with OOP so that the direction, speed, and turning of the robot 
+                could be controlled with class functions</li>
+            </ul>
+        </div>
+        <div class="col-12"><h3 class="mb-3">Raspberry Pi Robot Car, Electronics & Controls I, Tufts University</h3><p>Sept 2023 - Dec 2023</p>
+          <ul>
+            <li>Programmed a Raspberry Pi using python with the Flask and GPIO library to create an HTML 
+                webpage with buttons that would move a robot in all 4 directions</li>
+            <li>Connected two motors to an H-Bridge and used the GPIO ports of the Raspberry Pi to control the 
+                movement and speed of the motors with Pulse Width Modulation</li>
+            </ul>
+        </div>
+    </div>
+</div>
+ </section>
+
+<!-- Footer -->
+<section class="footer gradient-background">
+  <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="../../index.html" class="nav-link px-2 text-body-secondary active">Home</a></li>
+          <li class="nav-item"><a href="./About-me.html" class="nav-link px-2 text-body-secondary active">About</a></li>
+          <li class="nav-item"><a href="../coding/Coding-projects.html" class="nav-link px-2 text-body-secondary active">Coding Projects</a></li>
+          <li class="nav-item"><a href="../hardware/Hardware-projects.html" class="nav-link px-2 text-body-secondary active">Hardware Projects</a></li>
+          <li class="nav-item"><a href="https://www.linkedin.com/in/vazquez-victor/" class="nav-link px-2 text-body-secondary active">Linkedin Profile</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© Victor Vazquez</p>
+      </footer>
+    </div>
+</section>
+<!-- Javascript Activation -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

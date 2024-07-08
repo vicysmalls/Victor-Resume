@@ -1,0 +1,71 @@
+.gradient-background {
+    background: linear-gradient(300deg, #4C3BCF, #4B70F5, #3DC2EC);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.navbar-toggler{
+    border-color: white !important;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+a.nav-link.active{
+    color: white !important;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+h5{
+  color: white !important;
+  font-size: 2rem !important;
+  text-shadow: black 0px 0px 10px!important;
+}
+
+.carousel.slide{
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img{
+  object-fit: cover;
+  border-radius: 2%;
+}
+
+.carousel-caption{
+  top: 0;
+  bottom: auto;
+}
+
+.container p{
+  text-align: left;
+}
+
+ul{
+  margin-left: 3vw; 
+  padding: 0 !important;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul.nav{
+  border-color: white !important;
+}
